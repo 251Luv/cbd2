@@ -1,0 +1,32 @@
+<!doctype html>
+<style type="text/css">
+ .topcorner{
+   position:absolute;
+   top:0;
+   right:0;
+  }
+</style>
+
+<title>Upload Custom Purchase Order Detail Files</title>
+<h1>Upload Custom Purchase Order Detail Order </h1>
+<form method=post enctype=multipart/form-data>
+  <label>Choose a purchase order detail file:</label>
+  <input type=file name=order_file accept=".xlsx">
+  <br>
+  <label>Choose an inventory snapshot file:</label>
+  <input type=file name=inventory_file accept=".xlsx">
+  <br>
+  <label>Set a master BOM file:</label>
+  <input type=file name=cmb_file accept=".xlsx">
+  <br>
+  <label>Set a subcategory rules file:</label>
+  <input type=file name=rules_file accept=".xlsx">
+  <br>
+  <label for="threshold">Default presales threshold:</label>
+  <input type="number" id="threshold" name="threshold"
+   min="0" max="10" value="2">
+  <br><hr>
+  <input type=submit value=Upload>
+</form>
+<div class="topcorner"><a href={{ url_for('home') }}>Back to menu</a></div>
+

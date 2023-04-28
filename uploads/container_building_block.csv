@@ -1,0 +1,18 @@
+ContainerNum,SKU,Desc,CMB,NumOfUnit,SumOfCMB,StdPacking,Quantity
+1,S1031,MARLON Fabric Chair(Grey),0.598975,30.0,17.969250000000002,1,30.0
+1,S1036,FONDA Fabric Chair(Fabric Grey),0.534492,30.0,16.03476,1,30.0
+1,S1046,AUDREY Fabric Chair(Grey),0.55968,50.0,27.983999999999998,1,50.0
+1,T0862,ESSEN Fabric Sidechair (Grey Patchwork),0.07,30.0,2.1,4,120.0
+1,T1323,ESSEN Fabric Sidechair(Multicolour Patchwork),0.07,13.0,0.9100000000000001,4,52.0
+2,T1323,ESSEN Fabric Sidechair(Multicolour Patchwork),0.07,37.0,2.5900000000000003,4,148.0
+2,S1047,AUDREY Fabric Chair(Blue),0.55968,20.0,11.1936,1,20.0
+2,S1048,AUDREY Fabric Chair(Green),0.55968,20.0,11.1936,1,20.0
+2,S1049,AUDREY Fabric Chair(Pink),0.55968,20.0,11.1936,1,20.0
+2,T0968,Geometric Chair(White),0.05,30.0,1.5,4,120.0
+2,T0969,Geometric Chair(Black),0.05,35.0,1.75,4,140.0
+2,T1322,ESSEN Fabric Armchair (Multicolour Patchwork),0.13,35.0,4.55,4,140.0
+2,T1342,Featherstone Contour Lounge Chair(Patchwork),0.367,50.0,18.35,4,200.0
+2,T1431,MASTER Chair (Black),0.095,15.0,1.425,4,60.0
+2,T1432,MASTER Chair (White),0.095,13.0,1.235,4,52.0
+3,T1432,MASTER Chair (White),0.095,2.0,0.19,4,8.0
+3,T1435,MASTER Chair (Yellow),0.095,15.0,1.425,4,60.0

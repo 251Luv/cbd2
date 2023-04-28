@@ -1,0 +1,22 @@
+<!doctype html>
+<style type="text/css">
+ .topcorner{
+   position:absolute;
+   top:0;
+   right:0;
+  }
+</style>
+
+<title>Upload Custom Purchase Order Detail Files</title>
+<h1>Upload Custom Purchase Order Detail Order </h1>
+<form method=post enctype=multipart/form-data>
+  <label>Choose a custom purchase order detail file:</label>
+  <input type=file name=order_file accept=".csv">
+  <br>
+  <label>Set a master BOM file:</label>
+  <input type=file name=cmb_file accept=".csv">
+  <br><hr>
+  <input type=submit value=Upload>
+</form>
+<div class="topcorner"><a href={{ url_for('home') }}>Back to menu</a></div>
+

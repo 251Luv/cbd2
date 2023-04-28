@@ -1,0 +1,24 @@
+<!doctype html>
+<style type="text/css">
+ .topcorner{
+   position:absolute;
+   top:0;
+   right:0;
+  }
+</style>
+
+<title>Upload Container Files</title>
+<h1>Upload Replenish Order </h1>
+<form method=post enctype=multipart/form-data>
+  <label for="container">size of container:</label>
+  <input type="number" id="container" name="container"
+   min="10" max="100" value="65"><br>
+  <label>Choose a replenish order file:</label>
+  <input type=file name=order_file accept=".xlsx">
+  <br>
+  <label>Set a master unit CMB file file:</label>
+  <input type=file name=cmb_file accept=".xlsx">
+  <br><hr>
+  <input type=submit value=Upload>
+</form>
+<div class="topcorner"><a href={{ url_for('home') }}>Back to menu</a></div>
